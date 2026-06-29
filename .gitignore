@@ -4,4 +4,3 @@ __pycache__/
 outputs/
 models/*.pt
 .DS_Store
-*.mp4
