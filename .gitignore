@@ -1,0 +1,6 @@
+zed_venv/
+__pycache__/
+*.pyc
+outputs/
+models/*.pt
+.DS_Store
