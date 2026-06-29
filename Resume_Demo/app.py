@@ -112,10 +112,10 @@ with tab2:
     st.header("Project Demo Videos")
 
     videos = {
-        "YOLO Detection": "videos/YoloDetection_video.mp4",
-        "Manual ROI Selection": "videos/manual_roi_video.mp4",
-        "Coordinate Detection using Arduino": "videos/coordinate_detectionusing_Arduino.mp4",
-        "Arduino Setup": "videos/aurdino_setup.mp4"
+        "YOLO Detection": "Resume_Demo/videos/YoloDetection_video.mp4",
+        "Manual ROI Selection": "Resume_Demo/videos/manual_roi_video.mp4",
+        "Coordinate Detection using Arduino": "Resume_Demo/videos/coordinate_detectionusing_Arduino.mp4",
+        "Arduino Setup": "Resume_Demo/videos/aurdino_setup.mp4"
     }
 
     for title, path in videos.items():
@@ -130,14 +130,14 @@ with tab3:
     st.header("Screenshots")
 
     screenshots = [
-        ("YOLO Detection", "screenshots/yolodetection.jpeg"),
-        ("Manual ROI", "screenshots/manual_roi.jpeg"),
-        ("XYZ Estimation", "screenshots/xyz_estimation.jpeg"),
-        ("Object at 100 mm", "screenshots/object_100mm.jpeg"),
-        ("Object at 200 mm", "screenshots/object_200mm.jpeg"),
-        ("Object at 300 mm", "screenshots/object_300mm.jpeg"),
-        ("Object at 400 mm", "screenshots/object_400mm.jpeg"),
-        ("Object at 500 mm", "screenshots/object_500mm.jpeg"),
+        ("YOLO Detection", "Resume_Demo/screenshots/yolodetection.jpeg"),
+        ("Manual ROI", "Resume_Demo/screenshots/manual_roi.jpeg"),
+        ("XYZ Estimation", "Resume_Demo/screenshots/xyz_estimation.jpeg"),
+        ("Object at 100 mm", "Resume_Demo/screenshots/object_100mm.jpeg"),
+        ("Object at 200 mm", "Resume_Demo/screenshots/object_200mm.jpeg"),
+        ("Object at 300 mm", "Resume_Demo/screenshots/object_300mm.jpeg"),
+        ("Object at 400 mm", "Resume_Demo/screenshots/object_400mm.jpeg"),
+        ("Object at 500 mm", "Resume_Demo/screenshots/object_500mm.jpeg"),
     ]
 
     cols = st.columns(2)
